@@ -15,4 +15,5 @@ spring:
 aws:
   secretsmanager:
     region: ap-south-1
-    name: springboot-aws-demo/secrets
+    name: springboot/rds/mysql
+      
