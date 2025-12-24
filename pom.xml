@@ -31,11 +31,10 @@
 	</properties>
 	<dependencies>
 
-	<!-- https://mvnrepository.com/artifact/io.awspring.cloud/spring-cloud-aws-starter-secrets-manager -->
 	<dependency>
 		<groupId>io.awspring.cloud</groupId>
 		<artifactId>spring-cloud-aws-starter-secrets-manager</artifactId>
-		<version>4.0.0-M1</version>
+		<version>3.1.1</version>
 	</dependency>
 
 		 <!-- Spring Web -->
