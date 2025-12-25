@@ -31,21 +31,6 @@
 	</properties>
 	<dependencies>
 
-	<!-- https://mvnrepository.com/artifact/io.awspring.cloud/spring-cloud-aws-starter-secrets-manager -->
-	<dependency>
-		<groupId>io.awspring.cloud</groupId>
-		<artifactId>spring-cloud-aws-starter-secrets-manager</artifactId>
-		<version>4.0.0-M1</version>
-	</dependency>
-
-	<!-- https://mvnrepository.com/artifact/io.awspring.cloud/spring-cloud-aws-dependencies -->
-	<dependency>
-		<groupId>io.awspring.cloud</groupId>
-		<artifactId>spring-cloud-aws-dependencies</artifactId>
-		<version>4.0.0-M1</version>
-		<type>pom</type>
-	</dependency>
-
 		 <!-- Spring Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
