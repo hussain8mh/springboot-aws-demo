@@ -1,9 +1,13 @@
 spring:
   application:
     name: springboot-aws-demo
+  config:
+    import: "aws-secretsmanager:springboot-aws-demo/secrets"
 
   datasource:
     url: jdbc:mysql://testdb.clcw6ey6ky41.ap-south-1.rds.amazonaws.com:3306/testdb
+    username: ${username}
+    password: ${password}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -16,4 +20,4 @@ aws:
   secretsmanager:
     region: ap-south-1
     name: springboot-aws-demo/secrets
-      
+    enabled: true
